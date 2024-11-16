@@ -1,0 +1,42 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "useDefineForClassFields": true,
+        "module": "ESNext",
+        "moduleResolution": "Node",
+        "strict": true,
+        "jsx": "preserve",
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "lib": [
+            "ESNext",
+            "DOM",
+            "DOM.Iterable"
+        ],
+        "skipLibCheck": true,
+        "experimentalDecorators": true,
+        "noEmit": true,
+        "allowSyntheticDefaultImports": true,
+        "allowJs": true,
+        "baseUrl": ".",
+        "paths": {
+            "@/*": [
+                "src/*"
+            ],
+            "ol": [
+                "node_modules/@types/ol"
+            ],
+            "ol/*": [
+                "node_modules/@types/ol/*"
+            ]
+        },
+    },
+    "include": [
+        "src/**/*.ts",
+        "src/**/*.d.ts",
+        "src/**/*.tsx",
+        "src/**/*.vue",
+        "components.d.ts",
+        "auto-imports.d.ts"
+    ]
+}

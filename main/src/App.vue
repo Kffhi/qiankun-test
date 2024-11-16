@@ -1,0 +1,18 @@
+<template>
+    <el-config-provider :locale="zhCn">
+        <router-view></router-view>
+    </el-config-provider>
+</template>
+
+<script lang="ts" setup>
+    import { ElConfigProvider } from 'element-plus'
+    import zhCn from 'element-plus/dist/locale/zh-cn.mjs'
+</script>
+
+
+<style scoped>
+@font-face {
+    font-family: "YouSheBiaoTiHei";
+    src: url("./assets/font/YouSheBiaoTiHei.ttf") format("truetype")
+}
+</style>
