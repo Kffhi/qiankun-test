@@ -1,6 +1,6 @@
 <template>
     <div>
-      <p>2222</p>
+      <p>main 2222</p>
       <test-tab></test-tab>
     </div>
   </template>

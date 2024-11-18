@@ -17,7 +17,14 @@
 </template>
 
 <script lang="ts" setup>
-const activeName = ref('test5')
+const activeName = ref('test5');
+
+watch(
+    () => activeName.value,
+    (val) => {
+        console.log(val);
+    }
+);
 </script>
 
 <style lang="scss" scoped>
