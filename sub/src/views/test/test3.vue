@@ -1,5 +1,5 @@
 <template>
-    <div>3333</div>
+    <div>子页面3333</div>
 </template>
 
 <script lang="ts">

@@ -5,6 +5,7 @@
             <el-menu-item index="test2">子页面2</el-menu-item>
         </el-menu>
         <div class="router-content">
+            这里还是主页面3
             <router-view></router-view>
         </div>
     </div>
